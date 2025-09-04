@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { animate } from 'motion'
 import { useEffect } from 'react'
-import { Sparkles, ArrowRight, Star, Users, Zap } from 'lucide-react'
+import { Sparkles, ArrowRight, Star, Zap } from 'lucide-react'
 
 const Landing = () => {
   useEffect(() => {

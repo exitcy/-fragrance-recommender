@@ -68,7 +68,7 @@ const Results = () => {
     }
   }
 
-  const FragranceCard = ({ fragrance, type }: { fragrance: Fragrance; type: 'real_deal' | 'budget' }) => {
+  const FragranceCard = ({ fragrance }: { fragrance: Fragrance; type: 'real_deal' | 'budget' }) => {
     const isExpanded = expandedCards.has(fragrance.id)
 
     return (
